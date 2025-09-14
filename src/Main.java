@@ -10,6 +10,12 @@ public class Main {
         long banana =100000L;
         float land = 1.55f;
         double sea = 3.555555555;
+        System.out.println("Значение переменной container с типом byte равно " + container);
+        System.out.println("Значение переменной boxes с типом short равно " + boxes);
+        System.out.println("Значение переменной apples с типом int равно " + apples);
+        System.out.println("Значение переменной banana с типом long равно " + banana);
+        System.out.println("Значение переменной land с типом float равно " + land);
+        System.out.println("Значение переменной sea с типом double равно " + sea);
         //Задача 2
         float l = 27.12f;
         float m = 2.786f;
@@ -18,6 +24,13 @@ public class Main {
         short d = -159;
         int a = 27897;
         byte t = 67;
+        System.out.println("Значение переменной l с типом float равно " + l);
+        System.out.println("Значение переменной m с типом float равно " + m);
+        System.out.println("Значение переменной x с типом long равно " + x);
+        System.out.println("Значение переменной b с типом short равно " + b);
+        System.out.println("Значение переменной d с типом short равно " + d);
+        System.out.println("Значение переменной a с типом int равно " + a);
+        System.out.println("Значение переменной t с типом byte равно " +t);
         //Задача 3
        byte teacherLP = 23;
        byte teacherAC = 27;
@@ -46,7 +59,7 @@ public class Main {
         byte allPaints = 120;
         byte white = 2;
         byte brown = 4;
-        byte classes = (byte) 120/(2+4);
+        byte classes = (byte) (allPaints /(2+4));
         byte whitAll = (byte) (white * classes);
         byte brownAll = (byte) (brown * classes);
         System.out.println("В школе, где " +classes+ " классов, нужно " + whitAll + " банок белой краски и " + brownAll + " банок коричневой краски.");
@@ -60,9 +73,9 @@ public class Main {
         System.out.println( "Завтрак спорьсмена в граммах " + gram);
         System.out.println( "Завтрак спорьсмена в килограммах " + kilogram);
         //Задача 7
-        byte gram250 = (byte) ((7*1000)/250);
-        byte gram500 = (byte) ((7*1000)/500);
-        byte gram3 = (byte) ((7*1000)/((500+250)/2));
+        short gram250 = (short) ((7*1000)/250);
+        short gram500 = (short) ((7*1000)/500);
+        short gram3 = (short) ((7*1000)/((500+250)/2));
         System.out.println( "если спортсмен будет терять каждый день по 250 грамм понадобится " + gram250 + " дней" );
         System.out.println( "если спортсмен будет терять каждый день по 500 грамм ронадобится " + gram500 + " дней");
         System.out.println( gram3 + " может потребоваться дней в среднем, чтобы добиться результата похудения.");
